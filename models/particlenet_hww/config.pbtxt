@@ -1,8 +1,8 @@
 name: "particlenet_hww"
 platform: "onnxruntime_onnx"
-max_batch_size : 160
+max_batch_size : 256
 dynamic_batching {
-   preferred_batch_size: [ 80 ]
+   preferred_batch_size: [ 256 ]
 }
 input [
   {
