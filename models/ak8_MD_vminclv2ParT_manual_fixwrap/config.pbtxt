@@ -1,8 +1,8 @@
 name: "ak8_MD_vminclv2ParT_manual_fixwrap"
 platform: "onnxruntime_onnx"
-max_batch_size : 784
+max_batch_size : 512
 dynamic_batching {
-   preferred_batch_size: [ 784 ]
+   preferred_batch_size: [ 512 ]
 }
 input [
   {
